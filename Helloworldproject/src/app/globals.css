@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #a52a2a; /* Accent color for dark mode */
+    --foreground: #ffffff; /* Foreground color for dark mode */
+    --background: #011627; /* Background color for dark mode */
+    --font-inter:"Inter", sans-serif;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+}
